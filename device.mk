@@ -29,12 +29,6 @@ TARGET_RECOVERY_DEVICE_MODULES += \
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libsecureui.so
 
-PRODUCT_PACKAGES += \
-    otapreopt_script \
-    update_engine \
-    update_engine_sideload \
-    update_verifier \
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \

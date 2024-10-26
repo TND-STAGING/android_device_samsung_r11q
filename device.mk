@@ -18,16 +18,18 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd 
 
+# Recovery Modules
+PRODUCT_HOST_PACKAGES += \
+    libandroidicu
+
 # Recovery modules/dependencies
 TARGET_RECOVERY_DEVICE_MODULES += \
-    libandroidicu \
     libsecureui
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libandroidicu.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libsecureui.so
 
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     otapreopt_script \
     update_engine \
     update_engine_sideload \

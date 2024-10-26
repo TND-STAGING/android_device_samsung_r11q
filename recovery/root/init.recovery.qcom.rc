@@ -29,6 +29,7 @@ import /init.recovery.samsung.rc
 
 on init
     write /sys/class/backlight/panel0-backlight/brightness 200
+    export LD_LIBRARY_PATH /vendor/lib64:/vendor/lib:/system/lib64:/system/lib:/sbin
     setprop sys.usb.controller a600000.dwc3
     setprop prepdecrypt.loglevel 2
     setprop logd.ready true

@@ -12,7 +12,7 @@
 ```
  - Clone TheNoobDevs-Staging twrp tree
 ```
-    git clone https://github.com/TND-STAGING/android_device_samsung_r11q.git -b twrp-11 device/samsung/r11q
+    git clone https://github.com/TND-STAGING/android_device_samsung_r11q.git -b android-11 device/samsung/r11q
 ```
  - Build
 ```

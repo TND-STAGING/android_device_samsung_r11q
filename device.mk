@@ -20,12 +20,10 @@ PRODUCT_PACKAGES += \
 
 # Recovery modules/dependencies
 TARGET_RECOVERY_DEVICE_MODULES += \
-    libandroidicu \
-    libsecureui
+    libandroidicu 
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libandroidicu.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libsecureui.so
+    $(TARGET_OUT_SHARED_LIBRARIES)/libandroidicu.so 
 
 #PRODUCT_PACKAGES += \
     otapreopt_script \

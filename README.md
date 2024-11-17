@@ -2,7 +2,8 @@
 
 # How-to compile it:
 
-``
+ - twrp-14 manifest
+```
     repo init --depth=1 -u https://github.com/MrFluffyOven/platform_manifest_twrp_aosp.git -b twrp-14
 ```
  - Sync
